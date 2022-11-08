@@ -164,7 +164,7 @@ header .follow a:hover{
 }
 
 .home .image img{
-    width:100%;
+    width:50%;
 }
 
 .home .content{
@@ -211,8 +211,8 @@ header .follow a:hover{
 }
 
 .about .row-1 .image img{
-    height: 100%;
-    width:100%;
+    height: 550px;
+    width: 400;
     object-fit: cover;
     border:1rem solid #fff;
     border-radius: .5rem;
@@ -367,12 +367,12 @@ header .follow a:hover{
     padding-top: .5rem;
 }
 
-.experience .box-container{
+.Education .box-container{
     display: flex;
     flex-wrap: wrap;
 }
 
-.experience .box-container .box{
+.Education .box-container .box{
     position: relative;
     flex:1 1 33rem;
     border-left: .2rem solid var(--main-color);
@@ -381,7 +381,7 @@ header .follow a:hover{
     padding-bottom: 2rem;    
 }
 
-.experience .box-container .box::before{
+.Education .box-container .box::before{
     content: '';
     position: absolute;
     top:0; left:-1rem;
@@ -391,14 +391,14 @@ header .follow a:hover{
     background:var(--main-color);
 }
 
-.experience .box-container .box .content{
+.Education .box-container .box .content{
     background:#fff;
     padding:1.5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     border-radius: .5rem;
 }
 
-.experience .box-container .box .content span{
+.Education .box-container .box .content span{
     color:#fff;
     font-size: 1.7rem;
     background:var(--main-color);
@@ -406,13 +406,13 @@ header .follow a:hover{
     padding:.4rem 1rem;
 }
 
-.experience .box-container .box .content h3{
+.Education .box-container .box .content h3{
     font-size: 2.5rem;
     padding:.5rem 0;
     color:#111;
 }
 
-.experience .box-container .box .content p{
+.Education .box-container .box .content p{
     font-size: 1.5rem;
     color:#666;
 }
