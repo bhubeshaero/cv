@@ -34,3 +34,17 @@ document.querySelectorAll('a').forEach(links =>{
     }
 
 });
+
+function sendmail(params){
+    var tempParams ={
+        from_name : document.getElementById("from").value,
+        email_id : document.getElementById("email").value,
+        mobile_no : document.getElementById("number").value,
+        message : document.getElementById("msg").value,
+    };
+emailjs.send('gmail', 'template_ufzq4l8', tempParams)
+    .then(function(res){
+        console.log("Succesd", res.status);       
+    })
+
+}
